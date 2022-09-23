@@ -27,10 +27,8 @@ def animate():
     spinner()
     ontimer(animate, 40)
 
-
 def flick():
     state['turn'] += 50
-
 
 setup(480, 480, 0, 0)
 hideturtle()
